@@ -1,4 +1,4 @@
-### Hacker News - Angular Edition: Demonstration Version
+### Hacker News - Angular Edition
 Hacker News Angular Redesign
 ### Quick Installation
 Simply download InstantBootstrap from our GitHub page, or within your terminal run the command:
