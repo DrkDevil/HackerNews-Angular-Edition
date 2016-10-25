@@ -1,0 +1,10 @@
+angular.module("templates", []).run(["$templateCache", function($templateCache) {$templateCache.put("ask.html","ask");
+$templateCache.put("comments.html","Comments");
+$templateCache.put("jobs.html","jobs");
+$templateCache.put("main.html","Main");
+$templateCache.put("new.html","News");
+$templateCache.put("soon.html","<h1>Sorry. We are still working on the Docs for you. Please come back soon.</h1>");
+$templateCache.put("threads.html","Threads");
+$templateCache.put("welcome.html","Welcome");
+$templateCache.put("form/form.html","<div class=\"jumbotron\">\r\n    <h1>Form</h1>\r\n    <p>Resize this responsive page to see the effect!</p>\r\n    <h2>Form</h2>\r\n    <form name=\"baseForm\" role=\"form\">\r\n        <!-- AngularJS Directive -->\r\n        <form-row></form-row>\r\n        <!-- End Directive -->\r\n        <button type=\"button\" class=\"btn btn-primary\" ng-click=\"submitForm()\">Submit</button>\r\n    </form>\r\n</div>");
+$templateCache.put("form/row.html","<div class=\"form-group\">\r\n  <label for=\"tb-fname\">First Name:</label>\r\n  <input type=\"text\" class=\"form-control\" id=\"tb-fname\" ng-model=\"fName\">\r\n</div>\r\n<div class=\"form-group\">\r\n  <label for=\"tb-lname\">Last Name:</label>\r\n  <input type=\"text\" class=\"form-control\" id=\"tb-lname\" ng-model=\"lName\">\r\n</div>");}]);

@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="no-js" ng-app="baseApp">
+<head>
+<!--<base href="/">-->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<link rel="author" href="/humans.txt" />
+<!-- Font Awesome CSS -->
+<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css" />
+<!-- Hacker News Custom CSS -->
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<main ng-cloak>
+<div id="pageWrapper">
+  <div id="leftSidebar">
+    <ul class="leftSidebarContent">
+      <div class="logo-header"> <img class="logo" src="img/NewLogo.png" alt="Hacker News"/>
+        <h1>Hacker News</h1>
+      </div>
+      <li class="active"><i class="fa fa-home" aria-hidden="true"></i><a href="#/welcome">Welcome</a></li>
+      <li><i class="fa fa-star" aria-hidden="true"></i><a href="#/new">New</a></li>
+      <li><i class="fa fa-list" aria-hidden="true"></i><a href="#/threads">Threads</a></li>
+      <li><i class="fa fa-comments" aria-hidden="true"></i><a href="#/comments">Comments</a></li>
+      <li><i class="fa fa-question-circle" aria-hidden="true"></i><a href="#/ask">Ask</a></li>
+      <li><i class="fa fa-handshake-o" aria-hidden="true"></i><a href="#/jobs">Jobs</a></li>
+    </ul>
+  </div>
+  <div id="rightSidebar">
+    <div class="rightsSidebarContent"> </div>
+  </div>
+  <div class="pageContent">
+    <div class="top-bar">
+      <a href="menu-toggle" id="left-toggle" class="toggle-nav"><i class="fa fa-bars"></i></a>
+      <div class="submit-btn"> <a href="menu-toggle" id="right-toggle">Submit Article</a> </div>
+    </div>
+  <!-- AngularJS Routing -->
+  <div class="views" ng-view=""> </div>
+  <!-- End Routing -->
+</div>
+</div>
+</main>
+<!-- Jquery Library files   -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<!-- AngularJS Library files --> 
+<script src="bower_components/angular/angular.min.js"></script> 
+<script src="bower_components/angular-route/angular-route.min.js"></script> 
+
+<!-- AngularJS Project files --> 
+<script defer src="scripts/templates.js"></script> 
+<script defer src="scripts/main.js"></script> 
+<script defer src="scripts/index/index.js"></script> 
+<script defer src="scripts/index/controllers.js"></script> 
+<script defer src="scripts/index/directives.js"></script> 
+<script defer src="scripts/form/form.js"></script> 
+<script defer src="scripts/form/controllers.js"></script> 
+<script defer src="scripts/form/directives.js"></script>
+</body>
+</html>

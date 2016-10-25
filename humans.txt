@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# Hacker News Angular Edition
+  Developer: Brian Orr
+  Site:DigitalReligion.net
+  Twitter:@digitalreligion
+  Location: Dallas, TX
+
+# TECHNOLOGY COLOPHON
+  HTML5, CSS3,FontAwesome.css
+  Normalize.css, Sass/Compass
+  AngularJS, jQuery, Modernizr, GULP
+  MS Visual Studio 2015, Dreamweaver 2017

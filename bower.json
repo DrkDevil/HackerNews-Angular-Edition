@@ -1,0 +1,19 @@
+{
+  "name": "BaseApp",
+  "description": "Hacker News Angular ReDesign",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jQuery": "~3.1.1",
+    "angular": "~1.4.9",
+    "angular-route": "~1.4.9",
+	"FortAwesome/Font-Awesome": "*"
+  }
+}
