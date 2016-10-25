@@ -1,7 +1,7 @@
 ### Hacker News - Angular Edition
 Hacker News Angular Redesign
 ### Quick Installation
-Simply download InstantBootstrap from our GitHub page, or within your terminal run the command:
+Simply download Hacker News - Angular Edition from our GitHub page, or within your terminal run the command:
 ```
 $ git clone https://github.com/DrkDevil/HackerNews-Angular-Edition.git 
 ```
