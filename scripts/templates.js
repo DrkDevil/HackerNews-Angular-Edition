@@ -2,7 +2,7 @@ angular.module("templates", []).run(["$templateCache", function($templateCache) 
 $templateCache.put("comments.html","Comments");
 $templateCache.put("jobs.html","jobs");
 $templateCache.put("main.html","Main");
-$templateCache.put("new.html","News");
+$templateCache.put("new.html","Here are the top stories\r\n<ul>\r\n  <li ng-repeat=\"story in vm.stories\"> {{ story }} </li>\r\n</ul>\r\n<ul class=\"topstories\">\r\n  <li><i class=\"upvote fa fa-chevron-circle-up\" aria-hidden=\"true\"></i><i id=\"score\">score</i> <a href=\"#\" id=\"article_a\">article</a>  <i class=\"fa fa-clock-o\" aria-hidden=\"true\" id=\"time\">time</i>  <i class=\"comments fa fa-comments-o\" aria-hidden=\"true\"><a href=\"#\" id=\"comments_a\"> 41</a></i></li>\r\n</ul>\r\n<script>\r\n\r\n</script>");
 $templateCache.put("soon.html","<h1>Sorry. We are still working on the Docs for you. Please come back soon.</h1>");
 $templateCache.put("threads.html","Threads");
 $templateCache.put("welcome.html","Welcome");

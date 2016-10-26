@@ -38,7 +38,7 @@ a {color:#fff; text-decoration:none;}
 #pageContent { width: 100%; position: absolute; padding: 10px 5px 0 5px; }
 @media(min-width:768px) {
 #pageWrapper { padding: 0 15px 0 300px; }
-#pageWrapper.left-toggled { padding: 0 340px 0 0px;}
+#pageWrapper.left-toggled { padding: 0 15px 0 0px;}
 #pageWrapper.right-toggled { padding: 0 355px 0 300px;}
 #pageWrapper.left-toggled.right-toggled { padding: 0;}
 #pageWrapper.left-toggled #leftSidebar { width: 0px; padding: 0; }
@@ -53,7 +53,7 @@ a {color:#fff; text-decoration:none;}
 }
 
 /* Sidebar Styles - You can delete these and use your own navigation styles */
-.rightsSidebarContent { position: absolute; top: 0; width: 340px; margin: 0; padding: 0; list-style: none; }
+.rightsSidebarContent { position: absolute; top: 60px; width: 340px; margin: 0; padding: 20px; list-style: none; color:#000 !important; }
 .rightsSidebarContent P { padding: 30px 15px; color:#000000;}
 .leftSidebarContent { position: absolute; top: 0; width: 300px; margin: 0; padding: 0;	list-style: none; }
 .leftSidebarContent li { text-indent: 15px; line-height: 40px; }
@@ -70,3 +70,14 @@ a {color:#fff; text-decoration:none;}
 #welcome { background:url(../img/BodyBG.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; text-align: text-center; }
 #welcome .block { position: absolute; top: 50%; left: 50%; -moz-transform: translateX(-50%) translateY(-50%); -webkit-transform: translateX(-50%) translateY(-50%); transform: translateX(-50%) translateY(-50%); }
 .welcome-text { text-align: center; margin-left:-300px; }
+
+/* ---------- NEW PAGE STYLES ---------- */
+.topstories{ border-bottom: 1px solid #fff; padding: 15px; margin: 0 -15px; }
+.topstories li { padding: 15px; margin: -15px; list-style:inside decimal;}
+.topstories li:hover {background-color:#45413d;}
+
+.upvote {padding: 0 2%;}
+.comments, #time {float:right; line-height: 1.4rem; padding: 0 0 0 2%;}
+.comments a, #time a { margin-left:5px; }
+#score {padding: 0 2% 0 1%;}
+
