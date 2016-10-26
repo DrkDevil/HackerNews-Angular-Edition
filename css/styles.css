@@ -70,6 +70,8 @@ a {color:#fff; text-decoration:none;}
 #welcome { background:url(../img/BodyBG.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; text-align: text-center; width:100%; height: 100%; position: absolute; margin: -75px -15px; }
 #welcome .block { position: absolute; top: 50%; left: 50%; -moz-transform: translateX(-50%) translateY(-50%); -webkit-transform: translateX(-50%) translateY(-50%); transform: translateX(-50%) translateY(-50%); }
 .welcome-text { text-align: center; margin-left:-300px; }
+.welcome-text-boxed { text-align: center; margin-left: -300px; width: 820px; font-size: 1.0rem; padding: 25px; border-bottom: 2px solid #ff6602; }
+.welcome-text-boxed-hdr { text-align: center; margin-left: -300px; width: 820px; padding: 25px; border-bottom: 2px solid #ff6602; }
 
 /* ---------- NEW PAGE STYLES ---------- */
 .topstories{ border-bottom: 1px solid #2d2c2c; padding: 15px; margin: 0 -15px; }
