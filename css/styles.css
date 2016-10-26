@@ -72,7 +72,7 @@ a {color:#fff; text-decoration:none;}
 .welcome-text { text-align: center; margin-left:-300px; }
 
 /* ---------- NEW PAGE STYLES ---------- */
-.topstories{ border-bottom: 1px solid #fff; padding: 15px; margin: 0 -15px; }
+.topstories{ border-bottom: 1px solid #2d2c2c; padding: 15px; margin: 0 -15px; }
 .topstories li { padding: 15px; margin: -15px; list-style:inside decimal;}
 .topstories li:hover {background-color:#45413d;}
 
